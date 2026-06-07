@@ -1,0 +1,19 @@
+1. 	Col "Data Sufficiency Screen": 
+		If Data Sufficiency exists:
+			- Always First column of "OverViewAcceptReject".
+		Else:
+			- Remove "Data Sufficiency Screen" column from word template.
+
+2. 	Col "quant_screen_0_name":
+		If "Losses" exists:
+			- Find column contains "Losses"
+			- quant_screen_0_name = Losses Screen
+		Else:
+			- Remove "quant_screen_0_name" column from word template
+
+3. 	Col "quant_screen_1_name" up to quant_screen_4_name":
+		- All columns left, up to Business Description.
+		- Names are always all texts up to first "/" + " Screen".
+		- If any doesn't exist, remove from the Word.
+
+4. 	Col "Business Description" same logic as current.
