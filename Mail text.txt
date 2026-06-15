@@ -1,0 +1,12 @@
+Hi Refael,
+We used the previous Word template but made minor amendments to the file structure on the first page. We also added several variables to the file, most of which are conditional. For example, if "Number of Subsidiaries" appears in the "AnalysisSummary" file, the text "Does not have subsidiaries" should be displayed in the Word document.
+The second major change concerns the formats in the "FinancialDocumentReport" file. This format currently always displays 5 years, whereas, similar to the Compustat database, we will only need 3 or 4 years. In addition, all the data between the "Company Name" row and the "Year" row should be removed. Otherwise, the logic and format remain the same as before, down to the footer "^ Indicates Adjusted Tested Period ~ Indicates an Amended Financial Value".
+Please let us know if you would like to schedule a short call to discuss.
+Thank you!
+ 
+As discussed, the current template refers to the Compustat database. In addition, we often use another database, Orbis. The main difference is that there are additional criteria used in the Analysis Summary file, and the format is slightly different in the Financial Document Report.
+Please let us know the best way for us to incorporate the relevant files and variables.
+We are attaching Excel exports for your review.
+Kindly let us know if you would like to schedule a short call to discuss this.
+Regards,
+Daniel
